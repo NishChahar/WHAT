@@ -1,0 +1,58 @@
+body {
+    font: 20px Exo, sans-serif;
+    line-height: 1.8;
+    background-color: #2C2F33;
+  }
+  p {font-size: 16px;}
+
+  .bg-1 { 
+    background-color: #2C2F33; /* Green */
+    color: #ffffff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+ .col-md-3{
+   color: #ffffff;
+   align-content: center;
+ }
+ #iframe-div
+{
+    height: 500px;
+    width: 400px;
+    overflow : hidden;
+    position : relative;
+}
+#iframe
+{
+    position : absolute;
+    top      : -75px;
+    left     : 0px;
+}
+#chat
+{
+  background-color: #000; 
+  opacity: 0.8; 
+}
+.countup {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.countup .timeel {
+  display: inline-block;
+  padding: 10px;
+  background: #151515;
+  margin: 0;
+  color: white;
+  min-width: 2.6rem;
+  margin-left: 13px;
+  border-radius: 10px 0 0 10px;
+}
+.countup span[class*="timeRef"] {
+  border-radius: 0 10px 10px 0;
+  margin-left: 0;
+  background: #e8c152;
+  color: black;
+}
